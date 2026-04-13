@@ -34,6 +34,7 @@ jobs:
         username: ubuntu
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
+          cd MEAN-STACK
           docker pull ${{ secrets.DOCKER_USERNAME }}/backend
           docker pull ${{ secrets.DOCKER_USERNAME }}/frontend
           docker-compose down
