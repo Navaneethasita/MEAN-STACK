@@ -177,6 +177,8 @@ Instead of hardcoding IPs in frontend:
 ```bash
 git clone https://github.com/Navaneethasita/MEAN-STACK.git
 cd MEAN-STACK
+👉Checkout dev branch to get all these changes
+
 ```
 
 ### 2️⃣ Run using Docker Compose
